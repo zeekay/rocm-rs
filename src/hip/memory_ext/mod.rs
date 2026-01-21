@@ -1,7 +1,5 @@
 #[cfg(feature = "macros")]
 pub mod sorting;
-#[cfg(feature = "macros")]
-use crate::hip::memory_ext::sorting::GPUSortAllowed;
 
 use crate::hip::{DeviceMemory, Result, Stream};
 
